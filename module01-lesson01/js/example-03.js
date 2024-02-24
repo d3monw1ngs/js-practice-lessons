@@ -7,5 +7,5 @@ const result = 108 + 223 - 2 * 5;
 console.log(result);  // 321
 */
 
-const result = 108 + (223 - 2) * 5;
-console.log(result); //1213
+const result = 108 + 223 - (2 * 5);
+console.log(result); //321
