@@ -17,3 +17,14 @@ const doubleDigitHours = ;
 const doubleDigitMinutes = ;
 console.log(`${doubleDigitHours}:${doubleDigitMinutes}`); 
 */
+
+
+const totalMinutes = 70;
+const hours = Math.floor(totalMinutes/60);
+const minutes = totalMinutes % 60 ;
+console.log(hours);
+console.log(minutes);
+
+const doubleDigitHours = hours < 10 ? `0${hours}` : hours;
+const doubleDigitMinutes = minutes < 10 ? `0${minutes}` : minutes;
+console.log(`${doubleDigitHours}:${doubleDigitMinutes}`);
