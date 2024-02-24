@@ -14,3 +14,8 @@ console.log(value);
 
 // ?? nullish coalescing operator
 // works like || but only for null/undefined
+
+const incomingValue = 5;
+const defaultValue = 10;
+const value = incomingValue ?? defaultValue;
+console.log(value);
