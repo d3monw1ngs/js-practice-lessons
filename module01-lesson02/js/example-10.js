@@ -15,3 +15,19 @@ if (daysUntilDeadline === 0) {
   console.log('Date in the future');
 }
 */
+const daysUntilDeadline = 2;
+let message;
+switch (daysUntilDeadline) {
+  case 0:
+    message = 'Today';
+    break;
+  case 1:
+    message = 'Tomorrow';
+    break;
+  case 2:
+    message = 'The day after tomorrow';
+    break;
+  default:
+    message = 'Date in the future';
+}
+console.log(message);

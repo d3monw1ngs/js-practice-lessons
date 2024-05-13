@@ -12,7 +12,7 @@ Use if...else construction.
 const daysUntilDeadline = 5;
 // Write code below this line
  */
-const daysUntilDeadline = 0;
+const daysUntilDeadline = 1;
 if (daysUntilDeadline === 0) console.log("Today");
 else if (daysUntilDeadline === 1) console.log("Tomorrow");
 else if (daysUntilDeadline === 2) console.log("The day after tomorrow");

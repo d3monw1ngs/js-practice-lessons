@@ -12,7 +12,7 @@ const hours = 24;
 // Write if, else if, else code below this line
 */
 
-const hours = 15;
+const hours = 25;
 
 if (hours < 17) console.log("Pending");
 else if (hours >= 17 && hours <= 24) console.log("Expires");
