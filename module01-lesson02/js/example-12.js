@@ -14,3 +14,20 @@ Else output the string "Wrong password"
 const login = prompt('Enter login');
 // Write if, else if, else code here
 */
+const login = prompt('Enter login');
+// Write if, else if, else code here
+if (login === 'Admin'){
+    const password = prompt('Enter password:');
+
+    if (password === null || password === ''){
+        console.log('Canceled');
+    } else if (password === "I'm an admin"){
+        console.log("Hello!");
+    } else {
+        console.log("Wrong password");
+    }
+} else if (login === null || login === '') {
+    console.log('Canceled');
+} else {
+    console.log("I don't know you");
+}

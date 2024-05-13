@@ -7,3 +7,11 @@ const max = 100;
 const min = 20;
 // Write for loop code here
 */
+const max = 100;
+const min = 20;
+// Write for loop code here
+for (let i = min; i <= max; i++) {
+    if (i % 5 === 0) {
+        console.log(i);
+    }
+}
