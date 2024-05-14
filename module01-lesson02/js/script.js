@@ -56,7 +56,11 @@ switch (day) {
         console.log("You should wear brown");
         break;
     case 4:
+        console.log("You should wear pink");
+        break;
     case 5:
+        console.log("You should wear orange");
+        break;
     case 6:
         console.log("You should wear red");
         break;
